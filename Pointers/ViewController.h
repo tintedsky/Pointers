@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic) int age;
+@property (nonatomic) NSInteger debt;
+@property (nonatomic) NSNumber *bankBalance;
 
 @end
 
